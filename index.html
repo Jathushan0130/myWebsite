@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/004617ee81.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo">Jathushan Vishnukaran.</a>
+    <nav class="navbar">
+        <a href="#home" style="--i:1;" >Home</a>
+        <a href="#about" style="--i:2;">About</a>
+        <a href="#education" style="--i:3;">Education</a>
+        <a href="#skills" style="--i:4;">Skills</a>
+        <a href="#portfolio" style="--i:5;">Portfolio</a>
+        <a href="#contact" style="--i:6;">Contact</a>
+    </nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, I'm Jathushan Vishnukaran</h1>
+        <h3>Frontend Developer</h3>
+        <!--            <p>-->
+        <!--                nkjsnoesn vsevrsv svsrvrsvrs vsrvse-->
+        <!--            </p>-->
+    </div>
+    <div class="home-img">
+        <div class="circle">
+            <span></span>
+            <span></span>
+            <div class="image">
+                <img src="me.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-me">
+        <h1>About Me</h1>
+        <p>
+            I am a dedicated and ambitious computer science student that is currently enrolled at The University of
+            Ontario Insitute of Technology. I am proficient in HTML, CSS, Python, Java, and JavaScript. I am eager
+            to explore emerging technologies, and engages in research projects and coding challenges, to further
+            develop my knowledge in my Software Development skills.
+        </p>
+    </div>
+</section>
+<section class="education" id="education">
+    <h1 class="heading">My <span> Education</span></h1>
+    <div class="education-row">
+        <div class="education-column">
+            <br>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2021 - present</div>
+                        <h3>Bachelor Of Science Degree - University Of Ontario Institute Of Technology</h3>
+                        <p>Entrance Scholarship from Ontario Technology University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skills">
+    <div id="skills">
+        <div class="container">
+            <h1>My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>rvsefesfe fesfesf fesfesf fesfesf grgasgserdg rdgdrgdrgdrg drgdrgdrgdr gdrgardgrdg drgdragdrg drgadrgdraga</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>rvsefesfe fesfesf fesfesf fesfesf grgasgserdg rdgdrgdrgdrg drgdrgdrgdr gdrgardgrdg drgdragdrg drgadrgdraga</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>rvsefesfe fesfesf fesfesf fesfesf grgasgserdg rdgdrgdrgdrg drgdrgdrgdr gdrgardgrdg drgdragdrg drgadrgdraga</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="sf.jpeg">
+                    <div class="layer">
+                        <h3>Spam Detector</h3>
+                        <p>efsefsef esfesfsefesf esfesfsefse fesfsefsefse fesfsefes fesfes fesfesfse fesfesgg rdgdr g</p>
+                        <a href="https://github.com/Jathushan0130/spamDetector/tree/main/SpamDetectorClient"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sf.jpeg">
+                    <div class="layer">
+                        <h3>Unavaliable</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="sf.jpeg">
+                    <div class="layer">
+                        <h3>Unavaliable</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+</section>
+<div id="contact">
+    <table class="container">
+        <tr>
+            <td>
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sjathush@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>437-855-8368</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Jathushan0130"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <br>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Jathushan Vishnukaran</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSaPC_FjKTZgnCYKm24cuwSjK1PPW6ZmRtRJzlNU_BKt2EZTh0FNsvQONzGfLCqrWh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>
+            {msg.innerHTML = "Message sent successfully!"
+                setTimeout(function (){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
